@@ -1,0 +1,30 @@
+{
+  "name": "d3fc-point",
+  "description": "A component to simplify basic pointer interaction",
+  "license": "MIT",
+  "keywords": [
+    "d3",
+    "d3fc",
+    "datajoin"
+  ],
+  "homepage": "https://github.com/d3fc/d3fc-point",
+  "main": "build/d3fc-point.js",
+  "jsnext:main": "index",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/d3fc/d3fc-point"
+  },
+  "scripts": {
+    "bundle": "d3fc-scripts bundle",
+    "test": "d3fc-scripts test",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+  },
+  "dependencies": {
+    "d3-dispatch": "^1.0.1",
+    "d3-selection": "^1.0.2",
+    "d3fc-rebind": "^4.1.0"
+  },
+  "devDependencies": {
+    "d3fc-scripts": "^1.1.4"
+  }
+}
